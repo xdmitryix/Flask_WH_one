@@ -1,0 +1,11 @@
+{% extends 'base.html' %} {% block content %}
+<div class="top_content_index">
+  <h1 class="text_top_index">
+    Добро пожаловать<br />на сайт магазина одежды.<br />Удачных покупок!
+  </h1>
+  <img
+    class="top_img_index"
+    src="{{ url_for('static', filename='top_contetn.png') }}"
+  />
+</div>
+{% endblock %}

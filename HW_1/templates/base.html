@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" />
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="top_menu">
+      <div class="header">
+        <div class="left_side">
+        <img class="shop_logo" src="{{ url_for('static', filename='shop.png') }}" />
+        <h1 class="site_name">SHOP.com</h1>
+      </div>
+      
+      <div class="navigation_menu">
+        <li class="link_menu_home">
+          <a href="../index.html">Главная</a>
+        </li>
+        <li class="link_menu">
+          <a href="../clothes.html">Одежда</a>
+        </li>
+        <li class="link_menu"><a href="../shoes.html">Обувь</a></li>
+        <li class="link_menu"><a href="../hats.html">Шапка</a></li>
+      </div>
+    </div>
+      {% block content %} {% endblock %}
+      <div class="links_down">
+        <a href="https://vk.com/"
+          ><img class="down_links_logo_vk" src="{{ url_for('static', filename='vk_logo.png') }}" />
+        <a href="https://telegram.org/"
+          ><img class="down_links_logo_tg" src="{{ url_for('static', filename='telegram_logo.png') }}" />
+        <a href="https://www.instagram.com/"
+          ><img class="down_links_logo_inst" src="{{ url_for('static', filename='instagram_logo.png') }}" />
+      </div>
+    </div>
+  </body>
+</html>

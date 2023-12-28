@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #363232;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 250px;
+  padding-top: 10px;
+  background-color: rgb(47, 47, 49);
+  border-bottom-style: groove;
+  border-color: rgb(109, 106, 105);
+}
+
+.left_side {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navigation_menu {
+  display: flex;
+  gap: 5.5ex;
+  width: 533px;
+  height: 17px;
+}
+
+.link_menu {
+  list-style-type: none;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 30px;
+  white-space: nowrap;
+  text-shadow: 10px 10px 10px #000;
+}
+
+.link_menu_home {
+  list-style-type: none;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 30px;
+  white-space: nowrap;
+  text-shadow: 2px 2px 1px rgb(20, 2, 2);
+}
+
+.link_menu a {
+  color: white;
+}
+
+.link_menu_home a {
+  color: rgb(109, 106, 105);
+}
+
+.shop_logo {
+  width: 200px;
+  height: 200px;
+}
+
+.site_name {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 80px;
+  color: white;
+  text-shadow: 10px 10px 10px #000;
+}
+
+.top_content_index {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+
+.text_top_index {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 50px;
+}
+
+.top_img_index {
+  width: 600px;
+  height: 450x;
+}
+
+.links_down {
+  display: flex;
+  justify-content: center;
+  padding-top: 45px;
+  gap: 100px;
+}
+
+.down_links_logo_vk {
+  width: 40px;
+  height: 40px;
+}
+
+.down_links_logo_tg {
+  width: 65px;
+  height: 40px;
+}
+
+.down_links_logo_inst {
+  width: 55px;
+  height: 40px;
+}
+
+.top_content_clotes {
+  padding-top: 30px;
+  display: grid;
+  justify-content: center;
+}
+
+.hoody_img {
+  width: 600px;
+  height: 600px;
+  border-style: groove;
+  border-color: rgb(109, 106, 105);
+}
+
+.text_top_clotes {
+  padding-top: 10px;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 30px;
+  color: white;
+  text-shadow: 10px 10px 10px #000;
+}
+
+.Hoody_price {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 30px;
+  color: white;
+  text-shadow: 10px 10px 10px #000;
+}
+
+.top_content_hats {
+  padding-top: 30px;
+  display: grid;
+  justify-content: center;
+}
+
+.hat_img {
+  width: 600px;
+  height: 600px;
+  border-style: groove;
+  border-color: rgb(109, 106, 105);
+}
+
+.text_top_hats {
+  padding-top: 10px;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 30px;
+  color: white;
+  text-shadow: 10px 10px 10px #000;
+}
+
+.hats_price {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 30px;
+  color: white;
+  text-shadow: 10px 10px 10px #000;
+}
+
+.top_content_shoes {
+  padding-top: 30px;
+  display: grid;
+  justify-content: center;
+}
+
+.shoes_img {
+  width: 800px;
+  height: 600px;
+  border-style: groove;
+  border-color: rgb(109, 106, 105);
+}
+
+.text_top_shoes {
+  padding-top: 10px;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 30px;
+  color: white;
+  text-shadow: 10px 10px 10px #000;
+}
+
+.shoes_price {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 30px;
+  color: white;
+  text-shadow: 10px 10px 10px #000;
+}
